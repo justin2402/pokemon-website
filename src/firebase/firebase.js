@@ -5,7 +5,7 @@ import 'firebase/auth';
 import 'firebase/storage';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyARuUlYQ9xCdW",
+    apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
     authDomain: "pokemonfinalproj.firebaseapp.com",
     projectId: "pokemonfinalproj",
     storageBucket: "pokemonfinalproj.appspot.com",

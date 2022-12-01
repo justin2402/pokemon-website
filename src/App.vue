@@ -204,7 +204,7 @@
       },
       beforeCreate: async function () {
 
-        console.log(process.env.VUE_APP_FIREBASE_API_KEY)
+
           await auth.onAuthStateChanged(x => {
               if (x) {
                   this.authUser = new User(x);
